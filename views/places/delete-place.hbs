@@ -1,0 +1,7 @@
+<h2> Sure you want to delete {{place.name}}?</h2>
+
+<form action="/places/delete/{{id}}" method="POST">
+
+<button class="delete-btn" type="submit" name="delete-btn" id="submit">Yes, delete it</button>
+</form>
+<a href="/places">No, go back</a>

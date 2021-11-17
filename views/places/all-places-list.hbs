@@ -1,0 +1,19 @@
+<h1>
+  Places list:
+</h1>
+
+{{#each allPlaces}}
+  <div class="places-card">
+
+    <h2>{{name}}</h2>
+    <p>{{type}}</p> 
+    <a href="/places/edit/{{id}}">Edit</a>
+    <a href="/places/delete/{{id}}">Delete</a>  
+
+  </div>
+{{/each}} 
+
+<div>
+  <a href="/places/adding">Add a new place</a> <br>
+  <a href="/">Go back home</a> <br>
+</div>

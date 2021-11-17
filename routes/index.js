@@ -1,8 +1,6 @@
-const router = require("express").Router();
+module.exports = app => {
 
-/* GET home page */
-router.get("/", (req, res, next) => {
-  res.render("index");
-});
+  app.use('/', require('./base.routes'))
+  app.use('/places', require('./places.routes'))
 
-module.exports = router;
+}

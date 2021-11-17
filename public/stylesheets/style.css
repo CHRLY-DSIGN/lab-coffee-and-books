@@ -1,6 +1,11 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 14px Helvetica, Arial, sans-serif;
 }
 
 a {
@@ -9,4 +14,20 @@ a {
 
 h1 {
   color: 15px;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.places-card {
+  padding: 30px;
+  border: solid 3px #333;
+  width: 300px;
+  margin: 20px 0px;
+  border-radius: 30px;
+}
+
+
+#map {
+  width: 680px;
+  height: 420px;
 }
