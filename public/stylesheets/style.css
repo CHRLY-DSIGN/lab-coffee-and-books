@@ -31,3 +31,78 @@ h1 {
   width: 680px;
   height: 420px;
 }
+
+
+.basic-btn {
+  padding: 20px 80px;
+  background: rgb(255,24,83);
+  background: linear-gradient(30deg, rgba(255,24,83,1) 0%, rgba(220,38,251,1) 100%);
+  border-radius: 50px;   
+  color: white;
+  font-weight: 800;
+  text-decoration: none; 
+  margin-top: 10px;
+  border: 0px;
+}
+
+.basic-btn-mk2 {
+  padding: 20px 103px;
+  background: rgb(150,150,150);
+  background: linear-gradient(30deg, rgba(150,150,150,1) 0%, rgba(212,212,212,1) 100%);
+  border-radius: 50px;   
+  color: white;
+  font-weight: 800;
+  text-decoration: none;
+  margin-top: 10px; 
+}
+
+.basic-btn-mk3 {
+  padding: 20px 80px;
+  background: rgb(150,150,150);
+  background: linear-gradient(30deg, rgba(150,150,150,1) 0%, rgba(212,212,212,1) 100%);
+  border-radius: 50px;   
+  color: white;
+  font-weight: 800;
+  text-decoration: none;
+  margin-top: 10px; 
+}
+
+.basic-spacing {
+  margin-top: 50px;
+}
+
+.basic-spacing-mk2 {
+  margin-bottom: 20px;
+}
+
+.edit-btn {
+  padding: 10px 30px;
+  background: rgb(150,150,150);
+  background: linear-gradient(30deg, rgba(150,150,150,1) 0%, rgba(212,212,212,1) 100%);
+  border-radius: 10px;   
+  color: white;
+  font-weight: 800;
+  text-decoration: none;
+  
+}
+
+.delete-btn {
+  padding: 10px 30px;
+  background: rgb(193,7,73);
+  background: linear-gradient(30deg, rgba(193,7,73,1) 0%, rgba(218,72,126,1) 100%);
+  border-radius: 10px;   
+  color: white;
+  font-weight: 800;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  
+}
+
+.basic-container {
+  display: flex;
+}
+
+.margins {
+  margin: 40px;
+}

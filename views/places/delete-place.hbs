@@ -1,7 +1,7 @@
-<h2> Sure you want to delete {{place.name}}?</h2>
+<h2 class="basic-spacing-mk2"> Sure you want to delete {{place.name}}?</h2>
 
 <form action="/places/delete/{{id}}" method="POST">
 
 <button class="delete-btn" type="submit" name="delete-btn" id="submit">Yes, delete it</button>
+<a class="edit-btn" href="/places">No, go back</a>
 </form>
-<a href="/places">No, go back</a>

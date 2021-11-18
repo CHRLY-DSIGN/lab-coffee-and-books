@@ -1,19 +1,26 @@
 <h1>
   Places list:
 </h1>
+<div class="basic-container">
+  <div>
+    {{#each allPlaces}}
+      <div class="places-card">
 
-{{#each allPlaces}}
-  <div class="places-card">
+        <h2>{{name}}</h2>
+        <p class="basic-spacing-mk2">{{type}}</p> 
+        <a class="edit-btn" href="/places/edit/{{id}}">Edit</a>
+        <a class="delete-btn" href="/places/delete/{{id}}">Delete</a>  
 
-    <h2>{{name}}</h2>
-    <p>{{type}}</p> 
-    <a href="/places/edit/{{id}}">Edit</a>
-    <a href="/places/delete/{{id}}">Delete</a>  
-
+      </div>
+    {{/each}} 
   </div>
-{{/each}} 
 
-<div>
-  <a href="/places/adding">Add a new place</a> <br>
-  <a href="/">Go back home</a> <br>
-</div>
+  <div class="margins">
+      <div class="basic-spacing">
+        <a class="basic-btn" href="/places/adding">Add a new place</a> 
+      </div>
+      <div class="basic-spacing">
+        <a class="basic-btn-mk3" href="/">Go back home</a> 
+      </div>
+    </div>
+  </div>
